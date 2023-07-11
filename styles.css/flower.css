@@ -1,7 +1,7 @@
 /* header related styles */
 
 .header{
-    background-color: rgba(229, 84, 115, 0.10);
+    background-color: #E554731A;
 
 }
 .banner{
@@ -54,7 +54,7 @@ line-height: 30px;
     font-family: Lato;
     font-size: 40px;
     font-weight: 800;
-    margin: 0px;
+    
     line-height: 300px;
     
     
@@ -66,15 +66,96 @@ text-align: center;
 font-family: Lato;
 font-size: 18px;
 line-height: 30px;
-
-margin: 0px;
+padding: 5px;
 }
 
 /* image section styles */
 
-.profile-pic{
-    border-radius: 300px 300px 0px 0px;
-    background: #A7216226;
-    padding: 110px 78px 0px 77px;
-    
+.picture-flower{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    width: 464px;
+height: 538px;
+margin: 100px;
+
 }
+.flower-one{
+    border-radius: 300px 300px 0px 0px;
+background: #A7216226;
+padding: 110px 75px 0px 75px;
+
+}
+.flower-two{
+    border-radius: 300px 300px 0px 0px;
+background: #0597A026;
+padding: 115px 45px 50px;
+
+
+
+
+}
+.flower-three{
+    border-radius: 300px 300px 0px 0px;
+    background: #477D1126;
+    padding: 67px 75px 0px;
+}
+
+.pink-flower-one,.pink-flower-two,.pink-flower-three{ 
+    display: inline;
+    color: #272727;
+    text-align: center;
+font-family: Lato;
+font-size: 24px;
+text-decoration-line: underline;
+margin: 0px 0px 0px 275px;
+
+}
+
+/* Hot Deal banner style */
+
+.hot-deal{
+    
+    color: #272727;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin: 230px 300px 340px 300px;
+}
+
+
+
+.banner-two{
+    color: #E554730D;
+    padding: 30px 30px 30px 150px;
+    
+    align-items: center;
+    
+  
+}
+.span-color{
+    color: #E55473;
+}
+
+.banner-des{
+    color: #27272799;
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+
+}
+
+.banner-two .flow-pic{
+    width: 600px;
+}
+
+
+
+
+
+
